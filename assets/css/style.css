@@ -56,10 +56,14 @@ a{
     min-height: 80px;
 }
 
-header .logo, .login{
+.logo, .login{
     width: 20%;
     height: 50px;
     padding: 15px 0;
+}
+
+.logo{
+    padding: 10px 0 26px 0;
 }
 
 .link{
