@@ -46,7 +46,6 @@ h3{
 
 .button.blue{
     background-color: rgb(145, 162, 220);
-    width: 18%;
     margin: 0 auto;
     margin-bottom: 28px;
 }
@@ -93,7 +92,7 @@ h3{
     text-align: right;
 }
 
-ul{
+.link > ul{
     display: flex;
     justify-content: center;
 }
@@ -120,7 +119,7 @@ li {
     width: 68%;
   }
 
-.blue{
+.bluesq{
     display: flex;
     justify-content: center;
   }
@@ -190,7 +189,7 @@ h3{
 
 /* footer */
 footer{
-    background-color: darkslategray;
+    background-color: rgb(36, 39, 42);
 }
 
 .footer-top > *{
@@ -229,18 +228,17 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
-    height: 80px;
-    margin-top: 20px
+    background-color: transparent;
+    margin: 2% 0 5% 0;
 }
 
-footer .logo, .signup{
+.logo, .signup{
     padding: 5px 10px;
-    background-color: orange;
-    border: 1px dotted black;
+    background-color: transparent;
 }
 
 hr{
     width: 80%;
     margin: auto;
+    border: 1px solid rgb(67, 77, 109)
 }
