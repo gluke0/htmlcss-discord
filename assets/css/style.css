@@ -15,10 +15,25 @@ body{
     font-family: 'OpenSans', sans-serif;
 }
 
+/* utili */
 a{
     text-decoration: none;
+    color: white;
 }
 
+.button{
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.button.white{
+    background-color: white;
+    color: black;
+}
+
+.button.black{
+    background-color: rgb(36, 39, 42);
+}
 .container{
     margin: auto;
     width: 80%;
@@ -26,12 +41,11 @@ a{
 
 /* header-top */
 .header-top{
-    background-color: rgb(58, 100, 216);
+    background-color: rgb(41, 94, 231);
 }
 
 .header-top .container > * {
-    background-color: rgb(58 100 216);
-    border: 1px dashed;
+    background-color: rgb(41, 94, 231);
 }
 
 .header-top .container{
@@ -71,22 +85,29 @@ li {
 
 /* blue and pink */
 .header-bottom {
-    background-color: blue;
-    height: 400px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 30px 0 36px ;
 }
   
 .header-box {
-    background-color: pink;
-    border: 1px dashed black;
-    height: 300px;
-    width: 60%;
+    background-color: transparent;
     margin: 50px 0;
+    text-align: center;
+    width: 68%;
   }
 
 .blue{
     display: flex;
     justify-content: center;
   }
+
+p{
+    margin: 6% 0 4% 0;
+    line-height: 23px;
+}
 
 /* main */
 section, .container{
