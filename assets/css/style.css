@@ -135,10 +135,6 @@ section, .container{
     margin: auto;
 }
 
-section:nth-child(even){
-    background-color: rgb(246, 246, 246);
-}
-
 .big-box > img{
     width: 80%;
 }
@@ -182,10 +178,25 @@ h3{
 #stars{
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
-    background-size: 45%;
+    background-size: 35%;
     background-position: center top;
 }
 
+/* waves */
+.rotate-180{
+    transform: rotate(180deg);
+    top: -1px;
+    position: relative;
+}
+
+.wave-img{
+    filter: invert(100%) sepia(1%) saturate(2108%) hue-rotate(178deg) brightness(89%) contrast(85%);
+    display: block;
+}
+
+.wave-r{
+    background-color: lightgray;
+}
 
 /* footer */
 h4{
@@ -219,7 +230,10 @@ h4, .footer-box > h3{
 .social{
     font-size: 20px;
     margin: 9px 0 0 0;
+}
 
+.ico{
+    margin-right: 20px;
 }
 
 .footer-box{
@@ -242,8 +256,6 @@ h4, .footer-box > h3{
 .foot{
     margin-top: 30px;
 }
-
-/* waves */
 
 /* footer-bottom */
 .footer-bigger{
