@@ -74,17 +74,16 @@ h3{
 
 .logo, .login{
     width: 20%;
-    height: 50px;
     padding: 15px 0;
 }
 
 .logo{
-    padding: 10px 0 26px 0;
+    padding: 12px 0 26px 0;
+    margin-top: 4px;
 }
 
 .link{
     width: 60%;
-    height: 50px;
     padding: 15px;
 }
 
@@ -116,7 +115,7 @@ li {
     background-color: transparent;
     margin: 50px 0;
     text-align: center;
-    width: 68%;
+    width: 50%;
   }
 
 .bluesq{
@@ -133,6 +132,7 @@ p{
 section, .container{
     display: flex;
     justify-content: center;
+    margin: auto;
 }
 
 section:nth-child(even){
@@ -156,7 +156,7 @@ section:nth-child(even){
 .small-box{
     background-color: transparent;
     width: 40%;
-    padding: 20px 0 0 0;
+    padding-top: 26px;
 }
 
 .green{
@@ -165,7 +165,7 @@ section:nth-child(even){
 }
 
 .box{
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 .green > p, .green > h2{
